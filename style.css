@@ -1,0 +1,46 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Montserrat:wght@400;500;600&display=swap');
+    
+    * {
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .title-font {
+      font-family: 'Playfair Display', serif;
+    }
+    
+    .gradient-text {
+      background: linear-gradient(135deg, #d4a373 0%, #f5e6d3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .service-card {
+      transition: all 0.3s ease;
+      border: 2px solid #e5d4c1;
+    }
+    
+    .service-card:hover {
+      border-color: #d4a373;
+      box-shadow: 0 10px 30px rgba(212, 163, 115, 0.15);
+      transform: translateY(-5px);
+    }
+    
+    .decoration-item {
+      overflow: hidden;
+      border-radius: 12px;
+      aspect-ratio: 1;
+    }
+    
+    .decoration-item:hover img {
+      transform: scale(1.05);
+    }
+    
+    .decoration-item img {
+      transition: transform 0.4s ease;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+ 
